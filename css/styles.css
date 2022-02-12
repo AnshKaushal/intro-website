@@ -23,16 +23,11 @@ h3 {
   padding-top: 100px;
 }
 
-.midle-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+.middle-container {
 }
 
-.botom-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.bottom-container {
+
 }
 
 .web {
@@ -49,4 +44,12 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+.skill-row img {
+  width : 400px;
+  height : 250px;
+}
+.profile img {
+  width : 200px;
+  height : 200px;
 }
