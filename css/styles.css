@@ -1,37 +1,46 @@
 body {
-   margin :0;
-   text-align: center;
-   font-family:"Courier New", Courier, monospace;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin : 0 auto ;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
 }
 
-.top-container{
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
 }
 
 .midle-container {
-  width : 200px;
-  height : 200px;
+  width: 200px;
+  height: 200px;
   background-color: red;
-
 }
+
 .botom-container {
-  width :200px;
-  height : 200px;
+  width: 200px;
+  height: 200px;
   background-color: blue;
-
 }
+
 .web {
   text-decoration: underline;
 }
 
 .top-cloud {
-  position : absolute;
+  position: absolute;
   right: 300px;
   top: 50px;
 }
