@@ -9,11 +9,12 @@ h1 {
   color: #66BFBF;
   margin: 50px auto 0 auto;
   font-size: 5.625rem;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Merriweather',serif;
 }
 
+
 h2 {
-  color: #66BFBF;
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   padding-bottom: 10px;
@@ -40,16 +41,33 @@ p {
 
 .top-cloud {
   position: absolute;
+  width : 250px;
   right: 300px;
   top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
+  width : 250px;
   left: 250px;
   bottom: 300px;
 }
+@media (max-width:1028px) {
+  .top-cloud {
+    position: static;
+  }
 
+  .bottom-cloud {
+    position: static;
+    width : 612px;
+    height : 344px;
+  }
+  .mountain {
+    position: static;
+    width : 612px;
+    height : 344px;
+  }
+}
 .intro {
   width: 30%;
   margin: auto;
@@ -68,8 +86,8 @@ p {
 }
 
 .profile img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+
 }
 
 .skill-row {
