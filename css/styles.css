@@ -145,3 +145,8 @@ hr {
   font-size: 0.75rem;
   padding : 20px 0px;
 }
+a{
+  color : red;
+  text-decoration: none;
+  font-weight: bolder;
+}
